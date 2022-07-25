@@ -1,8 +1,7 @@
-/*
-File: 0-constants.js
-Author: Alex O. Arevalo T.
-email: 3915@holbertonstudents.com
-*/
+// File: 0-constants.js
+// Author: Alex O. Arevalo T.
+// email: 3915@holbertonstudents.com
+
 export function taskFirst() {
   const task = 'I prefer const when I can.';
   return task;
