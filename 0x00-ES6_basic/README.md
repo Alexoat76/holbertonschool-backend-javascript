@@ -179,6 +179,7 @@ Don’t forget to run  *` npm install `*  from the terminal of the project folde
 - `Compile` accord to `instructions` of each task.
 
 ## Files :file_folder:
+
 ### Tests :heavy_check_mark:
 
 + **[tests](./tests)**: Folder of test files. *`Provided by Holberton School`*.
