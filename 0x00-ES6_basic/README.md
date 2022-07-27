@@ -50,16 +50,15 @@ Read or watch:
 
 ## Requirements
 ### General
-- Allowed editors: `vi`, `vim`, `emacs` 
-- All your files will be interpreted on Ubuntu 20.04 LTS using `node` (version 14.x)
-- All your files should end with a new line
-- The first line of all your files should be exactly `#!/usr/bin/node` 
+- Allowed editors: *` vi `*, *` vim `*, *` emacs `* ,  *` Visual Studio Code `*  
+- All files will be interpreted on Ubuntu 20.04 LTS using `node` (version 14.x)
+- All files should end with a new line
 - A `README.md` file, at the root of the folder of the project, is mandatory
-- Your code should use the  **`js`**  extension
-- Your code will be tested using the **[Jest Testing Framework](https://intranet.hbtn.io/rltoken/-vHHhukhYFxZrd1G0uD3dw)** 
-- Your code will be analyzed using the linter **[ESLint](https://intranet.hbtn.io/rltoken/SXR8c_xOD3tm6NcBkk09dQ)** 
+- The code should use the  **`js`**  extension
+- The code will be tested using the **[Jest Testing Framework](https://intranet.hbtn.io/rltoken/-vHHhukhYFxZrd1G0uD3dw)** 
+- The code will be analyzed using the linter **[ESLint](https://intranet.hbtn.io/rltoken/SXR8c_xOD3tm6NcBkk09dQ)** 
  along with specific rules that we’ll provide
-- All of your functions must be exported
+- All functions must be exported
 
 ## More Info
 
@@ -81,9 +80,9 @@ $ npm -v
 
 ### Install Jest, Babel, and ESLint
 in your project directory: 
-* Install Jest using:  ` npm install --save-dev jest ` 
-* Install Babel using:  ` npm install --save-dev babel-jest @babel/core @babel/preset-env ` 
-* Install ESLint using:  ` npm install --save-dev eslint `
+* Install Jest using:  *` npm install --save-dev jest `* 
+* Install Babel using:  *` npm install --save-dev babel-jest @babel/core @babel/preset-env `* 
+* Install ESLint using:  *` npm install --save-dev eslint `*
 
 ## Configuration files
 ### package.json
