@@ -174,7 +174,7 @@ Don’t forget to run  *` npm install `*  from the terminal of the project folde
 ### Installation :computer:
 	
 - Clone this repository: `https://github.com/Alexoat76/holbertonschool-backend-javascript.git`	
-- Access to directory: `cd 0x00. ES6 Basics`
+- Access to directory: `cd 0x00-ES6_basic`
 - `Compile` accord to `instructions` of each task.
 
 ## Files :file_folder:
