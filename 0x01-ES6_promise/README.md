@@ -8,13 +8,13 @@
 
 ---
 
-# 0x00. ES6 Basics
+# 0x01. ES6 Promises
 
-This project contains some tasks for learning how to use and implement  the **`ES6`** Format for Modern Javascript.
+This project contains some tasks for learning how to use and implement **`Promises`** in Javascript language.
 
 <p align="center">
-  <img width="500"  
-        src="https://soyhorizonte.com/wp-content/uploads/2020/10/JS-by-SoyHorizonte.gif"
+  <img width="450"  
+        src="https://res.cloudinary.com/practicaldev/image/fetch/s--DZld0c-0--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/11vxhn9cun7stpjbdi80.gif"
   >
 </p>
 
@@ -32,32 +32,37 @@ This project contains some tasks for learning how to use and implement  the **`E
 ## About
 
 * [Modern Javascript](https://intranet.hbtn.io/concepts/541) 
-* [Software Linter](https://intranet.hbtn.io/concepts/542)
 
 ## Resources :books:
 Read or watch:
 	
-[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://www.google.com/search?q=es6+javascript&bih=829&biw=1757&hl=en&ei=elPgYtOlDZyGkvQP7fuh2AQ&oq=ES6+&gs_lcp=Cgdnd3Mtd2l6EAEYATIECAAQQzIFCAAQkQIyBAgAEEMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEJECMgQIABBDMgQIABBDMgUIABCABEoECEEYAUoECEYYAFD1BVjCCGDqGGgBcAB4AIABjwGIAZECkgEDMC4ymAEAoAEBwAEB&sclient=gws-wiz)
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://www.google.com/search?q=javascript+promises+and+async&bih=829&biw=1757&hl=en&ei=mIXhYrzICvmgkPIPtpOrkA8&ved=0ahUKEwi89PSF25n5AhV5EEQIHbbJCvIQ4dUDCA4&uact=5&oq=javascript+promises+and+async&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEIAEMgUIABCABDIGCAAQHhAWMgYIABAeEBYyBggAEB4QFjIGCAAQHhAWMgYIABAeEBYyBggAEB4QFjIGCAAQHhAWMgUIABCGAzoHCAAQRxCwA0oECEEYAEoECEYYAFDVB1iYE2DpFWgBcAF4AIABrAKIAZMHkgEHMC4yLjEuMZgBAKABAcgBCMABAQ&sclient=gws-wiz)
 
-[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/results?search_query=es6+javascript)
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/results?search_query=javascript+promises+and+async+await)
 
-- [ECMAScript 6 - ECMAScript 2015](https://intranet.hbtn.io/rltoken/TCja4539uK-aM7PeJO7b3g) 
-- [Statements and declarations](https://intranet.hbtn.io/rltoken/WhZFQkTl7jjHKbolvKMWPQ) 
-- [Arrow functions](https://intranet.hbtn.io/rltoken/aOgghxMow79j1NxlaQ6T9g) 
-- [Default parameters](https://intranet.hbtn.io/rltoken/5DcDBQM8iItIZFFlVtehTQ) 
-- [Rest parameter](https://intranet.hbtn.io/rltoken/e-bvzp0l6c0-dpHMF8zznw) 
-- [Javascript ES6 — Iterables and Iterators](https://intranet.hbtn.io/rltoken/ZNKNXIbxKIfocOKDzRgH4Q)
+- [Promise](https://intranet.hbtn.io/rltoken/Xxx-3X2c-AjtJxO8kRApVA) 
+- [JavaScript Promise: An introduction](https://intranet.hbtn.io/rltoken/nnHc3vzCBk8CyUStyZ43rQ) 
+- [Await](https://intranet.hbtn.io/rltoken/5cSi-fnU40xJC1QAsIS8Yg) 
+- [Async](https://intranet.hbtn.io/rltoken/wv9a_s80XdhLhHPflgq-1A) 
+- [Throw / Try](https://intranet.hbtn.io/rltoken/OX831VVL2ucwMlM2NT8Iwg) 
+
+* Promises (how, why, and what)
+* How to use the  *` then `* ,  *` resolve `* ,  *` catch `*  methods
+* How to use every method of the Promise object
+* Throw / Try
+* The await operator
+* How to use an  *` async `*  function
 
 ## Requirements
 ### General
-- Allowed editors: `vi`, `vim`, `emacs` 
-- All your files will be interpreted on Ubuntu 20.04 LTS using `node` (version 14.x)
-- All your files should end with a new line
-- The first line of all your files should be exactly `#!/usr/bin/node` 
+- Allowed editors: *` vi `* ,  *` vim `* ,  *` emacs `* ,  *` Visual Studio Code `* 
+- All files will be interpreted on Ubuntu 20.04 LTS using `node` (version 14.x)
+- All files should end with a new line
 - A `README.md` file, at the root of the folder of the project, is mandatory
-- Your code should use the  **`js`**  extension
-- Your code will be tested using the **[Jest Testing Framework](https://intranet.hbtn.io/rltoken/-vHHhukhYFxZrd1G0uD3dw)** 
-- Your code will be analyzed using the linter **[ESLint](https://intranet.hbtn.io/rltoken/SXR8c_xOD3tm6NcBkk09dQ)** 
+- The code should use the  **`js`**  extension
+- The code will be tested using the **[Jest Testing Framework](https://intranet.hbtn.io/rltoken/-vHHhukhYFxZrd1G0uD3dw)** 
+ and the command  *` npm run test `*
+- Ther code will be analyzed using the linter **[ESLint](https://intranet.hbtn.io/rltoken/SXR8c_xOD3tm6NcBkk09dQ)** 
  along with specific rules that we’ll provide
 - All of your functions must be exported
 
@@ -70,8 +75,8 @@ Read or watch:
 curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
 sudo bash nodesource_setup.sh
 sudo apt install nodejs -y
-
 ```
+
 ``` 
 $ nodejs -v
 v12.11.1
@@ -128,6 +133,29 @@ module.exports = {
 };
 
 ```
+### utils.js
+
+Use when you get to tasks requiring   *` uploadPhoto `*   and   *` createUser `*.
+
+```bash
+
+export function uploadPhoto() {
+  return Promise.resolve({
+    status: 200,
+    body: 'photo-profile-1',
+  });
+}
+
+
+export function createUser() {
+  return Promise.resolve({
+    firstName: 'Guillaume',
+    lastName: 'Salva',
+  });
+}
+
+```
+
 ### .eslintrc.js
 
 ```bash
@@ -169,13 +197,14 @@ module.exports = {
 };
 
 ```
-### Finally…
-Don’t forget to run  *` npm install `*  from the terminal of the project folder to install all necessary project dependencies.
+### and…
+
+Don’t forget to run   *` $ npm install `*   when you have the   *` package.json `*.
 
 ### Installation :computer:
 	
 - Clone this repository: `https://github.com/Alexoat76/holbertonschool-backend-javascript.git`	
-- Access to directory: `cd 0x00. ES6 Basics`
+- Access to directory: `cd 0x01-ES6_promise`
 - `Compile` accord to `instructions` of each task.
 
 ## Files :file_folder:
