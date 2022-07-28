@@ -16,11 +16,6 @@ export default class Building {
     this._sqft = sqft;
   }
 
-  // Setter for sqft attribute for the class Building
-  set sqft(sqft) { // Setter for sqft attribute (number)
-    this._sqft = sqft;
-  }
-
   // Getter for sqft attribute for the class Building
   get sqft() { // Getter for sqft attribute (string)
     return this._sqft;
