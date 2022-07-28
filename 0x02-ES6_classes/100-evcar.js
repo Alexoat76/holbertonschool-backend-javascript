@@ -13,7 +13,7 @@ export default class EVCar extends Car {
   // Methods
 
   cloneCar() {
-    const NewObj = this.constructor[Symbol.species] || this.constructor;
+    const NewObj = this.constructor[Symbol.toPrimitive] || this.constructor;
     const clone = new NewObj();
     return clone;
   }
