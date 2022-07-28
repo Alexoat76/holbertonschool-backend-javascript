@@ -29,7 +29,7 @@ class StudentHolberton {
   }
 
   get holbertonClass() { // Getter for holbertonClass attribute (public)
-    return this._holbertonClass;
+    return `${this._holbertonClass}`;
   }
 
   get fullStudentDescription() { // Getter for fullStudentDescription attributes
