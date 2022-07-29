@@ -4,31 +4,31 @@ export class HolbertonClass {
     this._location = location;
   }
 
-  get year() { // Getter for year attribute (private)
+  get year() {
     return this._year;
   }
 
-  get location() { // Getter for location attribute ()
+  get location() {
     return this._location;
   }
 }
 
 export class StudentHolberton {
   constructor(firstName, lastName, holbertonClass) {
-    this._firstName = firstName; // Setter for firstName attribute (private)
-    this._lastName = lastName; // Setter for lastName attribute (private)
-    this._holbertonClass = holbertonClass; // Setter for holbertonClass attribute (private)
+    this._firstName = firstName;
+    this._lastName = lastName;
+    this._holbertonClass = holbertonClass;
   }
 
-  get fullName() { // Getter for fullName attribute (public)
+  get fullName() {
     return `${this._firstName} ${this._lastName}`;
   }
 
-  get holbertonClass() { // Getter for holbertonClass attribute (public)
-    return `${this._holbertonClass}`;
+  get holbertonClass() {
+    return this._holbertonClass;
   }
 
-  get fullStudentDescription() { // Getter for fullStudentDescription attributes
+  get fullStudentDescription() {
     return `${this.fullName} - ${this._holbertonClass.year} - ${this._holbertonClass.location}`;
   }
 }
