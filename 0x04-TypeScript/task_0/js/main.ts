@@ -1,5 +1,6 @@
 /** This module renders table based on a list of objects */
 
+
 /**
  * Create an interface for a Student that has the following elements:
  * - First name (string)
