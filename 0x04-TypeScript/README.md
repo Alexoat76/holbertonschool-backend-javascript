@@ -8,9 +8,9 @@
 
 ---
 
-# 0x00. ES6 Basics
+# 0x04. Typescript
 
-This project contains some tasks for learning how to use and implement *`TypeScript`* language.
+This project contains some tasks for learning how to use and implement *`Typescript`* language.
 
 <p align="center">
   <img width="300"  
