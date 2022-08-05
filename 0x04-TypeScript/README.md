@@ -31,8 +31,8 @@ This project contains some tasks for learning how to use and implement *`TypeScr
 
 ## About
 
-- [TypeScript in 5 minutes](https://intranet.hbtn.io/rltoken/HfycOAryDcML-UBtDoUdaA) 
-- [TypeScript documentation](https://intranet.hbtn.io/rltoken/bWrVUKXkt6lJgpZ5vahDMw) 
+- **[TypeScript in 5 minutes](https://intranet.hbtn.io/rltoken/HfycOAryDcML-UBtDoUdaA)** 
+- **[TypeScript documentation](https://intranet.hbtn.io/rltoken/bWrVUKXkt6lJgpZ5vahDMw)** 
 
 ## Resources :books:
 Read or watch:
@@ -562,7 +562,24 @@ In  *` task_4/js/subjects `* :
 * for React subject, log to the console  *` React `* , set  *` cTeacher `*  as the teacher, call the two methods  *` getRequirements `*  and  *` getAvailableTeacher `* , and print the strings they return
 
 ---
-	
+
++ [x] 11\. **Brand convention & Nominal typing**
+
+- **[task_5/js/main.ts](./task_5/js/main.ts)**
+- **[task_5/package.json](./task_5/package.json)**
+- **[task_5/webpack.config.js](./task_5/webpack.config.js)**
+- **[task_5/tsconfig.json](./task_5/tsconfig.json)**
+
+Create a directory   *` task_5 `*   and copy these configuration files into the root of   *` task_5 `*  :   *` package.json `*  ,   *` tsconfig.json `*  ,   *` webpack.config.js `* 
+Create two interfaces   *` MajorCredits `*   and   *` MinorCredits `*   in   *` task_5/js/main.ts `*  :
+* Each interface defines a number named  *` credits `* 
+* Add a brand property to each interface in order to uniquely identify each of them
+Create two functions named   *` sumMajorCredits `*   and   *` sumMinorCredits `*   in   *` task_5/js/main.ts `*  :
+* Each function takes two arguments  *` subject1 `*  and  *` subject2 `*
+*  *` sumMajorCredits `*  returns  *` MajorCredits `*  value and  *` sumMinorCredits `*  returns  *` MinorCredits `*  value
+* Each function sums the credits of the two subjects
+
+---
 	
 ## Credits
 
