@@ -1,7 +1,7 @@
 <p align="center">
 <img src="https://img.shields.io/badge/LINUX-darkgreen.svg"/>
 <img src="https://img.shields.io/badge/Shell-ligthgreen.svg"/>
-<img src="https://img.shields.io/badge/Emacs-purple.svg"/>
+<img src="https://img.shields.io/badge/Vim-blue.svg"/>
 <img src="https://img.shields.io/badge/JavaScript-yellow.svg"/>
 <img src="https://img.shields.io/badge/Markdown-black.svg"/><br>	
 </p>
@@ -13,8 +13,8 @@
 This project contains some tasks for learning how to use and implement **`Classes`** in Javascript language.
 
 <p align="center">
-  <img width="450"  
-        src="https://res.cloudinary.com/practicaldev/image/fetch/s--DZld0c-0--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/11vxhn9cun7stpjbdi80.gif"
+  <img width="300"  
+        src="https://media4.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif?cid=790b7611e182513cfb8be6cde9402da76a5c95a8729a0d9c&rid=giphy.gif&ct=s"
   >
 </p>
 
