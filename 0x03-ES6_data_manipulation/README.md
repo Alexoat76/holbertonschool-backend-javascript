@@ -13,7 +13,7 @@
 This project contains some tasks for learning how to use *`map`*, *`filter`* and *`reduce`* on arrays in Javascript language.
 
 <p align="center">
-  <img width="350"  
+  <img width="380"  
         src="https://miro.medium.com/max/1838/1*XCPNNcF9l8nliSJdVxNIGw.jpeg"
   >
 </p>
@@ -36,35 +36,30 @@ This project contains some tasks for learning how to use *`map`*, *`filter`* and
 ## Resources :books:
 Read or watch:
 	
-[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://www.google.com/search?q=javascript+promises+and+async&bih=829&biw=1757&hl=en&ei=mIXhYrzICvmgkPIPtpOrkA8&ved=0ahUKEwi89PSF25n5AhV5EEQIHbbJCvIQ4dUDCA4&uact=5&oq=javascript+promises+and+async&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEIAEMgUIABCABDIGCAAQHhAWMgYIABAeEBYyBggAEB4QFjIGCAAQHhAWMgYIABAeEBYyBggAEB4QFjIGCAAQHhAWMgUIABCGAzoHCAAQRxCwA0oECEEYAEoECEYYAFDVB1iYE2DpFWgBcAF4AIABrAKIAZMHkgEHMC4yLjEuMZgBAKABAcgBCMABAQ&sclient=gws-wiz)
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://www.google.com/search?q=javascript+data+manipulation&ei=uY7xYuWWN8awkvQPus2kuA4&oq=javascript+data+ma&gs_lcp=Cgdnd3Mtd2l6EAEYADIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQhgM6BAgAEEc6BAgAEEM6BQgAEJECOggILhCABBDUAjoHCAAQgAQQCjoFCC4QgARKBAhBGABKBAhGGABQyQRYwR5g0yloAHACeACAAZUBiAGtB5IBAzAuOJgBAKABAcgBCMABAQ&sclient=gws-wiz)
 
-[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/results?search_query=javascript+promises+and+async+await)
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/results?search_query=javascript+data+manipulation)
 
-- [Promise](https://intranet.hbtn.io/rltoken/Xxx-3X2c-AjtJxO8kRApVA) 
-- [JavaScript Promise: An introduction](https://intranet.hbtn.io/rltoken/nnHc3vzCBk8CyUStyZ43rQ) 
-- [Await](https://intranet.hbtn.io/rltoken/5cSi-fnU40xJC1QAsIS8Yg) 
-- [Async](https://intranet.hbtn.io/rltoken/wv9a_s80XdhLhHPflgq-1A) 
-- [Throw / Try](https://intranet.hbtn.io/rltoken/OX831VVL2ucwMlM2NT8Iwg) 
-
-* Promises (how, why, and what)
-* How to use the  *` then `* ,  *` resolve `* ,  *` catch `*  methods
-* How to use every method of the Promise object
-* Throw / Try
-* The await operator
-* How to use an  *` async `*  function
+- **[Array](https://intranet.hbtn.io/rltoken/wwXCT3fq4IXd1I9uNI77ZA)** 
+- **[Typed Array](https://intranet.hbtn.io/rltoken/vh-3p3KW641JOjcM13AQuQ)** 
+- **[Set Data Structure](https://intranet.hbtn.io/rltoken/bTIxlT2dX7Ug7KMqQlbJ9w)** 
+- **[Map Data Structure](https://intranet.hbtn.io/rltoken/qpMmznNSHZRf_oIWXa882Q)** 
+- **[WeakMap](https://intranet.hbtn.io/rltoken/spKDkmTeDUOY5JGy96XL0g)** 
+- How to use map, filter and reduce on arrays
+- Typed arrays
+- The Set, Map, and Weak link data structures
 
 ## Requirements
 ### General
-- Allowed editors: *` vi `* ,  *` vim `* ,  *` emacs `* ,  *` Visual Studio Code `* 
-- All files will be interpreted on Ubuntu 20.04 LTS using `node` (version 14.x)
-- All files should end with a new line
-- A `README.md` file, at the root of the folder of the project, is mandatory
-- The code should use the  **`js`**  extension
-- The code will be tested using the **[Jest Testing Framework](https://intranet.hbtn.io/rltoken/-vHHhukhYFxZrd1G0uD3dw)** 
- and the command  *` npm run test `*
-- The code will be analyzed using the linter **[ESLint](https://intranet.hbtn.io/rltoken/SXR8c_xOD3tm6NcBkk09dQ)** 
- along with specific rules that we’ll provide
-- All functions must be exported
+* All files will be executed on Ubuntu 18.04 LTS using NodeJS 12.11.x
+* Allowed editors: *` vi `*,  *` vim `*,  *` emacs `*,  *` Visual Studio Code `* 
+* All files should end with a new line
+* A *` README.md `* file, at the root of the folder of the project, is mandatory
+* The code should use the  *` js `*  extension
+* The code will be tested using  *` Jest `*  and the command  *` npm run test `* 
+* The code will be verified against lint using ESLint
+* The code needs to pass all the tests and lint. You can verify the entire project running  *` npm run full-test `* 
+* All of functions must be exported
 
 ## More Info
 
@@ -133,28 +128,6 @@ module.exports = {
 };
 
 ```
-### utils.js
-
-Use when you get to tasks requiring   *` uploadPhoto `*   and   *` createUser `*.
-
-```bash
-
-export function uploadPhoto() {
-  return Promise.resolve({
-    status: 200,
-    body: 'photo-profile-1',
-  });
-}
-
-
-export function createUser() {
-  return Promise.resolve({
-    firstName: 'Guillaume',
-    lastName: 'Salva',
-  });
-}
-
-```
 
 ### .eslintrc.js
 
@@ -180,6 +153,8 @@ module.exports = {
   },
   plugins: ['jest'],
   rules: {
+    'max-classes-per-file': 'off',
+    'no-underscore-dangle': 'off',
     'no-console': 'off',
     'no-shadow': 'off',
     'no-restricted-syntax': [
@@ -201,28 +176,12 @@ module.exports = {
 
 Don’t forget to run   *` $ npm install `*   when you have the   *` package.json `*.
 
-## Response Data Format
-
- *` uploadPhoto `*   returns a response with the format
-``` 
-{
-  status: 200,
-  body: 'photo-profile-1',
-}
-```  
-
-*` createUser `*   returns a response with the format
-```
-{
-  firstName: 'Guillaume',
-  lastName: 'Salva',
-}
-``` 
+---
 
 ### Installation :computer:
 	
 - Clone this repository: `https://github.com/Alexoat76/holbertonschool-backend-javascript.git`	
-- Access to directory: `cd 0x01-ES6_promise`
+- Access to directory: `cd 0x03-ES6_data_manipulation`
 - `Compile` accord to `instructions` of each task.
 
 ## Files :file_folder:
@@ -235,365 +194,390 @@ Don’t forget to run   *` $ npm install `*   when you have the   *` package.jso
 
 ## Tasks
 
-+ [x] 0\. **Keep every promise you make and only make promises you can keep**
++ [x] 0\. **Basic list of objects**
 
-+ **[0-promise.js](./0-promise.js)**
++ **[0-get_list_students.js](./0-get_list_students.js)**
 
-Return a Promise using this prototype  *` function getResponseFromAPI() `*
+Create a function named   *` getListStudents `*   that returns an array of objects. 
+Each object should have three attributes:   *` id `*   (Number),   *` firstName `*   (String), and   *` location `*   (String). 
+The array contains the following students in order: 
+*  ` Guillaume ` , id:  ` 1 ` , in  ` San Francisco ` 
+*  ` James ` , id:  ` 2 ` , in  ` Columbia ` 
+*  ` Serena ` , id:  ` 5 ` , in  ` San Francisco `
  
 ```bash
 $ cat 0-main.js
-import getResponseFromAPI from "./0-promise.js";
+import getListStudents from "./0-get_list_students.js";
 
-const response = getResponseFromAPI();
-console.log(response instanceof Promise);
+console.log(getListStudents());
 
 $ 
 $ npm run dev 0-main.js 
-true
+[
+  { id: 1, firstName: 'Guillaume', location: 'San Francisco' },
+  { id: 2, firstName: 'James', location: 'Columbia' },
+  { id: 5, firstName: 'Serena', location: 'San Francisco' }
+]
 $ 
 
 ```
----
 
-+ [x] 1\. **Don't make a promise...if you know you can't keep it**
++ [x] 1\. **More mapping**
 
-+ **[1-promise.js](./1-promise.js)**
++ **[1-get_list_student_ids.js](./1-get_list_student_ids.js)**
 
-Using the prototype below, return a   *` promise `*  . The parameter is a   *` boolean `* .
-```
-getFullResponseFromAPI(success)
-```
-When the argument is:
-*  ` true ` 
-	* resolve the promise by passing an object with 2 attributes:
-		*  ` status ` :  ` 200 ` 
-		*  ` body ` :  ` 'Success' ` 
-*  ` false ` * reject the promise with an error object with the message  ` The fake API is not working currently ` 
-
-Try testing it out for yourself
-
+Create a function *` getListStudentIds `* that returns an array of ids from a list of object.
+This function is taking one argument which is an array of objects - and this array is the same format as  *` getListStudents `*  from the previous task.
+If the argument is not an array, the function is returning an empty array.
+You must use the  *` map `* function on the array.
 ```bash
 $ cat 1-main.js
-import getFullResponseFromAPI from './1-promise';
+import getListStudentIds from "./1-get_list_student_ids.js";
+import getListStudents from "./0-get_list_students.js";
 
-console.log(getFullResponseFromAPI(true));
-console.log(getFullResponseFromAPI(false));
+console.log(getListStudentIds("hello"));
+console.log(getListStudentIds(getListStudents()));
 
 $ 
 $ npm run dev 1-main.js 
-Promise { { status: 200, body: 'Success' } }
-Promise {
-  <rejected> Error: The fake API is not working currently
-    ...
-    ...
+[]
+[ 1, 2, 5 ]
 $ 
 
 ```
 ---
- 
-+ [x] 2\. **Catch me if you can!**
 
-+ **[2-then.js](./2-then.js)**
++ [X] 2\. **Filter**
 
-Using the function prototype below
-```
-function handleResponseFromAPI(promise)
-```
-Append three handlers to the function:
-* When the Promise resolves, return an object with the following attributes
-	*  ` status ` :  ` 200 ` 
-	*  ` body ` :  ` success ` 
-* When the Promise rejects, return an empty  ` Error `  object
-* For every resolution, log  ` Got a response from the API `  to the console
++ **[2-get_students_by_loc.js](./2-get_students_by_loc.js)**
+
+Create a function  *` getStudentsByLocation `*   that returns an array of objects who are located in a specific city.
+It should accept a list of students (from  *` getListStudents `*  ) and a  *` city `*  (string) as parameters.
+You must use the *` filter `* function on the array.
 
 ```bash
 $ cat 2-main.js
-import handleResponseFromAPI from "./2-then";
+import getListStudents from "./0-get_list_students.js";
+import getStudentsByLocation from "./2-get_students_by_loc.js";
 
-const promise = Promise.resolve();
-handleResponseFromAPI(promise);
+const students = getListStudents();
+
+console.log(getStudentsByLocation(students, 'San Francisco'));
 
 $ 
 $ npm run dev 2-main.js 
-Got a response from the API
+[
+  { id: 1, firstName: 'Guillaume', location: 'San Francisco' },
+  { id: 5, firstName: 'Serena', location: 'San Francisco' }
+]
 $ 
 
 ```
 ---
-+ [x] 3\. **Handle multiple successful promises**
 
-+ **[3-all.js](./3-all.js)**
++ [x] 3\. **Reduce**
 
-In this file, import   *` uploadPhoto `*   and   *` createUser `*   from   *` utils.js `* 
-Knowing that the functions in   *` utils.js `*  return promises, use the prototype below to collectively resolve all promises and log   *` body firstName lastName `*  
-to the console.
++ **[3-get_ids_sum.js](./3-get_ids_sum.js)**
 
-```
-function handleProfileSignup()
-```
-In the event of an error, log   *` Signup system offline `*   to the console
-
+Create a function *` getStudentIdsSum `* that returns the sum of all the student ids.
+It should accept a list of students (from *` getListStudents `*) as a parameter. 
+You must use the *` reduce `* function on the array. 
 ```bash
 $ cat 3-main.js
-import handleProfileSignup from "./3-all";
+import getListStudents from "./0-get_list_students.js";
+import getStudentIdsSum from "./3-get_ids_sum.js";
 
-handleProfileSignup();
+const students = getListStudents();
+const value = getStudentIdsSum(students);
+
+console.log(value);
 
 $ 
 $ npm run dev 3-main.js 
-photo-profile-1 Guillaume Salva
+8
 $ 
 
 ```
 ---
 
-+ [x] 4\. **Simple promise**
++ [x] 4\. **Combine**
 
-+ **[4-user-promise.js](./4-user-promise.js)**
++ **[4-update_grade_by_city.js](./4-update_grade_by_city.js)**
 
-Using the following prototype
+Create a function *` updateStudentGradeByCity `* that returns an array of students for a specific city with their new grade
+It should accept a list of students (from *` getListStudents `* ), a *` city `*  (String), and *` newGrades `* (Array of “grade” objects) as parameters. 
+ *` newGrades `*   is an array of objects with this format:
+```
+   {
+    studentId: 31,
+    grade: 78,
+  }
+```
 
-```
-function signUpUser(firstName, lastName) {
-}
-```
-That returns a resolved promise with this object:
-``` 
-{
-  firstName: value,
-  lastName: value,
-}
-```
+If a student doesn’t have grade in   *` newGrades `*  , the final grade should be   *` N/A `*  .
+You must use   *` filter `*   and   *` map `*   combined.
+
 ```bash
 $ cat 4-main.js
-import signUpUser from "./4-user-promise";
+import getListStudents from "./0-get_list_students.js";
+import updateStudentGradeByCity from "./4-update_grade_by_city.js";
 
-console.log(signUpUser("Bob", "Dylan"));
+console.log(updateStudentGradeByCity(getListStudents(), "San Francisco", 
+[{ studentId: 5, grade: 97 }, { studentId: 1, grade: 86 }]));
+
+console.log(updateStudentGradeByCity(getListStudents(), "San Francisco", 
+[{ studentId: 5, grade: 97 }]));
 
 $ 
 $ npm run dev 4-main.js 
-Promise { { firstName: 'Bob', lastName: 'Dylan' } }
+[
+  {
+    id: 1,
+    firstName: 'Guillaume',
+    location: 'San Francisco',
+    grade: 86
+  },
+  { id: 5, firstName: 'Serena', location: 'San Francisco', grade: 97 }
+]
+[
+  {
+    id: 1,
+    firstName: 'Guillaume',
+    location: 'San Francisco',
+    grade: 'N/A'
+  },
+  { id: 5, firstName: 'Serena', location: 'San Francisco', grade: 97 }
+]
 $ 
 
 ```
 ---
- 
-+ [x] 5\. **Reject the promises**
 
-+ **[5-photo-reject.js](./5-photo-reject.js)**
++ [x] 5\. **Typed Arrays**
 
-Write and export a function named   *` uploadPhoto `*  . It should accept one argument   *` fileName `*   (string). 
-The function should return a Promise rejecting with an Error and the string   *` $fileName cannot be processed ` *
-```
-export default function uploadPhoto(filename) {
-}
-```
++ **[5-typed_arrays.js](./5-typed_arrays.js)**
+
+Create a function named  *` createInt8TypedArray `* that returns a new *` ArrayBuffer `*  with an *` Int8 `* value at a specific position.
+It should accept three arguments: *` length `* (Number), *` position `* (Number), and *` value `* (Number).
+If adding the value is not possible the error *` Position outside range `* should be thrown.
+
 ```bash
 $ cat 5-main.js
-import uploadPhoto from './5-photo-reject';
+import createInt8TypedArray from "./5-typed_arrays.js";
 
-console.log(uploadPhoto('guillaume.jpg'));
+console.log(createInt8TypedArray(10, 2, 89));
 
 $ 
 $ npm run dev 5-main.js 
-Promise {
-  <rejected> Error: guillaume.jpg cannot be processed
-  ..
-  ..
+DataView {
+  byteLength: 10,
+  byteOffset: 0,
+  buffer: ArrayBuffer {
+    [Uint8Contents]: <00 00 59 00 00 00 00 00 00 00>,
+    byteLength: 10
+  }
+}
 $ 
 
 ```
 ---
 
-+ [x] 6\. **Handle multiple promises**
++ [x] 6\. **Set data structure**
 
-+ **[6-final-user.js](./6-final-user.js)**
++ **[6-set.js](./6-set.js)**
 
-Import   *` signUpUser `*   from   *` 4-user-promise.js `*   and   *` uploadPhoto `*   from   *` 5-photo-reject.js `* .
-Write and export a function named  *` handleProfileSignup `*. It should accept three arguments  *` firstName `*  (string), *` lastName `* (string), and  *` fileName `* (string). 
-The function should call the two other functions. When the promises are all settled it should return an array with the following structure:
-```bash
-[
-    {
-      status: status_of_the_promise,
-      value: value or error returned by the Promise
-    },
-    ...
-  ]
-
-```
+Create a function named   *` setFromArray `*   that returns a   *` Set `*   from an array.
+It accepts an argument (Array, of any kind of element). 
 ```bash
 $ cat 6-main.js
-import handleProfileSignup from './6-final-user';
+import setFromArray from "./6-set.js";
 
-console.log(handleProfileSignup("Bob", "Dylan", "bob_dylan.jpg"));
+console.log(setFromArray([12, 32, 15, 78, 98, 15]));
 
 $ 
 $ npm run dev 6-main.js 
-Promise { <pending> }
+Set { 12, 32, 15, 78, 98 }
 $ 
 
 ```
 ---
- 
-+ [x] 7\. **Load balancer**
 
-+ **[7-load_balancer.js](./7-load_balancer.js)**
++ [x] 7\. **More set data structure**
 
-Write and export a function named   *` loadBalancer `*  . It should accept two arguments *` chinaDownload `*  (Promise) and  *` USDownload `*  (Promise).
-The function should return the value returned by the promise that resolved the first.
++ **[7-has_array_values.js](./7-has_array_values.js)**
 
-```
-export default function loadBalancer(chinaDownload, USDownload) {
-}
-```
+Create a function named *` hasValuesFromArray `* that returns a boolean if all the elements in the array exist within the set.
+It accepts two arguments: a  *` set `*   (Set) and an   *` array `*   (Array). 
 ```bash
 $ cat 7-main.js
-import loadBalancer from "./7-load_balancer";
+import hasValuesFromArray from "./7-has_array_values.js";
 
-const ukSuccess = 'Downloading from UK is faster';
-const frSuccess = 'Downloading from FR is faster';
-
-const promiseUK = new Promise(function(resolve, reject) {
-    setTimeout(resolve, 100, ukSuccess);
-});
-
-const promiseUKSlow = new Promise(function(resolve, reject) {
-    setTimeout(resolve, 400, ukSuccess);
-});
-
-const promiseFR = new Promise(function(resolve, reject) {
-    setTimeout(resolve, 200, frSuccess);
-});
-
-const test = async () => {
-    console.log(await loadBalancer(promiseUK, promiseFR));
-    console.log(await loadBalancer(promiseUKSlow, promiseFR));
-}
-
-test();
+console.log(hasValuesFromArray(new Set([1, 2, 3, 4, 5]), [1]));
+console.log(hasValuesFromArray(new Set([1, 2, 3, 4, 5]), [10]));
+console.log(hasValuesFromArray(new Set([1, 2, 3, 4, 5]), [1, 10]));
 
 $ 
 $ npm run dev 7-main.js 
-Downloading from UK is faster
-Downloading from FR is faster
+true
+false
+false
 $ 
 
 ```
 ---
 
-+ [x] 8\. **Throw error / try catch**
++ [x] 8\. **Clean set**
 
-+ **[8-try.js](./8-try.js)**
++ **[8-clean_set.js](./8-clean_set.js)**
 
-Write a function named   *` divideFunction `*   that will accept two arguments: *` numerator `* (Number) and  *` denominator `* (Number).
-When the   *` denominator `*   argument is equal to 0, the function should throw a new error with the message *` cannot divide by 0 `*. Otherwise it should 
-return the numerator divided by the denominator.
+Create a function named *` cleanSet `* that returns a string of all the set values that start with a specific string ( *` startString `* ).
+It accepts two arguments: a   *` set `*   (Set) and a   *` startString `*   (String). 
+When a value starts with *` startString `* you only append the rest of the string. The string contains all the values of the set separated by  *` - `*. 
 
-```
-export default function divideFunction(numerator, denominator) {
-}
-```
+**Note** :
+
+* If  *` startString `*  is of type undefined, the function will return an empty string.
+* If  *` set `*  contains undefined elements, the function will skip these elements.
+
 ```bash
 $ cat 8-main.js
-import divideFunction from './8-try';
+import cleanSet from "./8-clean_set.js";
 
-console.log(divideFunction(10, 2));
-console.log(divideFunction(10, 0));
+console.log(cleanSet(new Set(['bonjovi', 'bonaparte', 'bonappetit', 'banana']), 'bon'));
+console.log(cleanSet(new Set(['bonjovi', 'bonaparte', 'bonappetit', 'banana']), ''));
+console.log(cleanSet(new Set(['bonjovi', 'bonaparte', , 'banana'])));
+console.log(cleanSet(new Set(['bonjovi', 'bonaparte', , 'banana']), 'bon'));
 
 $ 
 $ npm run dev 8-main.js 
-5
-..../8-try.js:15
-  throw Error('cannot divide by 0');
-  ^
-.....
+jovi-aparte-appetit
 
+
+jovi-aparte
 $ 
 
 ```
 ---
 
- 
-+ [x] 9\. **Throw an error**
++ [x] 9\. **Map data structure**
 
-+ **[9-try.js](./9-try.js)**
++ **[9-groceries_list.js](./9-groceries_list.js)**
 
-Write a function named   *` guardrail `*   that will accept one argument *` mathFunction `* (Function).
-This function should create and return an array named  *` queue `*.
-
-When the  *` mathFunction `*  function is executed, the value returned by the function should be appended to the queue. If this function throws an error, 
-the error message should be appended to the queue. In every case, the message   *` Guardrail was processed `*   should be added to the queue.
-
-Example:
-
+Create a function named  *` groceriesList `* that returns a map of groceries with the following items (name, quantity): 
 ```
-[
-  1000,
-  'Guardrail was processed',
-]
+Apples, 10
+Tomatoes, 10
+Pasta, 1
+Rice, 1
+Banana, 5
 ```
+
+Result:
+
 ```bash
 $ cat 9-main.js
-import guardrail from './9-try';
-import divideFunction from './8-try';
+import groceriesList from "./9-groceries_list.js";
 
-console.log(guardrail(() => { return divideFunction(10, 2)}));
-console.log(guardrail(() => { return divideFunction(10, 0)}));
+console.log(groceriesList());
 
 $ 
 $ npm run dev 9-main.js 
-[ 5, 'Guardrail was processed' ]
-[ 'Error: cannot divide by 0', 'Guardrail was processed' ]
+Map {
+  'Apples' => 10,
+  'Tomatoes' => 10,
+  'Pasta' => 1,
+  'Rice' => 1,
+  'Banana' => 5
+}
 $ 
 
 ```
 ---
 
-+ [x] 10\. **Await / Async**
++ [x] 10\. **More map data structure**
 
-+ **[100-await.js](./100-await.js)**
++ **[10-update_uniq_items.js](./10-update_uniq_items.js)**
 
-Import  *` uploadPhoto `*  and  *` createUser `*  from  *` utils.js `*
-Write an async function named  *` asyncUploadUser `* that will call these two functions and return an object with the following format:
+Create a function named  *` updateUniqueItems `*   that returns an updated map for all items with initial quantity at 1.<br>
+It should accept a map as an argument. The map it accepts for argument is similar to the map you create in the previous task.<br>
+For each entry of the map where the quantity is 1, update the quantity to 100. If updating the quantity is not possible (argument is not a map)<br>
+the error   *` Cannot process `*   should be thrown.
 
-```
-{
-  photo: response_from_uploadPhoto_function,
-  user: response_from_createUser_function,
+```bash
+$ cat 10-main.js
+import updateUniqueItems from "./10-update_uniq_items.js";
+import groceriesList from "./9-groceries_list.js";
+
+const map = groceriesList();
+console.log(map);
+
+updateUniqueItems(map)
+console.log(map);
+
+$ 
+$ npm run dev 10-main.js 
+Map {
+  'Apples' => 10,
+  'Tomatoes' => 10,
+  'Pasta' => 1,
+  'Rice' => 1,
+  'Banana' => 5
 }
-```
-If one of the async function fails, return an empty object. Example:
-```
-{
-  photo: null,
-  user: null,
+Map {
+  'Apples' => 10,
+  'Tomatoes' => 10,
+  'Pasta' => 100,
+  'Rice' => 100,
+  'Banana' => 5
 }
+$ 
+
 ```
+---
+
++ [x] 10\. **Weak link data structure**
+
++ **[100-weak.js](./100-weak.js)**
+
+Export a  *` const `*   instance of *` WeakMap `* and name it *` weakMap `*.
+Export a new function named  *` queryAPI `*. It should accept an endpoint argument like so: 
+```
+   {
+    protocol: 'http',
+    name: 'getUsers',
+  }
+```
+Track within the *` weakMap `* the number of times  *` queryAPI `* is called for each endpoint.
+When the number of queries is >= 5 throw an error with the message  *` Endpoint load is high `*.
+
 ```bash
 $ cat 100-main.js
-import asyncUploadUser from "./100-await";
+import { queryAPI, weakMap } from "./100-weak.js";
 
-const test = async () => {
-    const value = await asyncUploadUser();
-    console.log(value);
-};
+const endpoint = { protocol: 'http', name: 'getUsers' };
+weakMap.get(endpoint);
 
-test();
+queryAPI(endpoint);
+console.log(weakMap.get(endpoint));
+
+queryAPI(endpoint);
+console.log(weakMap.get(endpoint));
+
+queryAPI(endpoint);
+queryAPI(endpoint);
+queryAPI(endpoint);
+queryAPI(endpoint);
 
 $ 
 $ npm run dev 100-main.js 
-{
-  photo: { status: 200, body: 'photo-profile-1' },
-  user: { firstName: 'Guillaume', lastName: 'Salva' }
-}
+1
+2
+.../100-weak.js:16
+    throw new Error('Endpoint load is high');
+   ...
 $ 
 
 ```
-
-
-
 ---
 
 ## Credits
