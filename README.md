@@ -12,7 +12,7 @@
 # Backend-JavaScript and TypeScript
 <div style="text-align: justify">
 
-Thank you for visiting this repository which contain projects for learning *`Javascript`*  for the Back-End Specialization curriculum at at `Holberton School`.
+Thank you for visiting this repository which contain projects for learning *`Javascript`*  for the Back-End Specialization curriculum at `Holberton School`.
 
 <p align="center">
   <img width="300"  
