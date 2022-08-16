@@ -85,7 +85,9 @@ in your project directory:
 * Install ESLint using:  *` npm install --save-dev eslint `*
 
 ## Configuration files
-### package.json
+
+<details>
+  <summary><h3>package.json :floppy_disk:</h3></summary>
 
 ```bash
 {
@@ -109,7 +111,10 @@ in your project directory:
 }
 
 ```
-### babel.config.js
+</details>
+
+<details>
+  <summary><h3>babel.config.js :floppy_disk:</h3></summary>
 
 ```bash
 
@@ -127,7 +132,10 @@ module.exports = {
 };
 
 ```
-### .eslintrc.js
+</details>
+
+<details>
+  <summary><h3>.eslintrc.js :floppy_disk:</h3></summary>
 
 ```bash
 
@@ -168,6 +176,8 @@ module.exports = {
 };
 
 ```
+</details>
+
 ### Finally…
 Don’t forget to run  *` npm install `*  from the terminal of the project folder to install all necessary project dependencies.
 
