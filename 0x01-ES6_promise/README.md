@@ -83,7 +83,6 @@ v12.11.1
 $ npm -v
 6.11.3
 ```
-
 ### Install Jest, Babel, and ESLint
 in your project directory: 
 * Install Jest using:  *` npm install --save-dev jest `* 
@@ -91,7 +90,9 @@ in your project directory:
 * Install ESLint using:  *` npm install --save-dev eslint `*
 
 ## Configuration files
-### package.json
+
+<details>
+  <summary><h3>package.json :floppy_disk:</h3></summary>
 
 ```bash
 {
@@ -115,7 +116,9 @@ in your project directory:
 }
 
 ```
-### babel.config.js
+</details>
+<details>
+  <summary><h3>babel.config.js :floppy_disk:</h3></summary>
 
 ```bash
 
@@ -133,9 +136,12 @@ module.exports = {
 };
 
 ```
-### utils.js
+</details>
 
-Use when you get to tasks requiring   *` uploadPhoto `*   and   *` createUser `*.
+
+
+<details>
+  <summary><h3>utils.js :floppy_disk:</h3></summary>
 
 ```bash
 
@@ -155,8 +161,11 @@ export function createUser() {
 }
 
 ```
+</details>
 
-### .eslintrc.js
+Use when you get to tasks requiring   *` uploadPhoto `*   and   *` createUser `*.
+<details>
+  <summary><h3>.eslintrc.js :floppy_disk:</h3></summary>
 
 ```bash
 
@@ -197,6 +206,8 @@ module.exports = {
 };
 
 ```
+</details>
+
 ### and…
 
 Don’t forget to run   *` $ npm install `*   when you have the   *` package.json `*.
