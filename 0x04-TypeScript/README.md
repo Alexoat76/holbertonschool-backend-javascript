@@ -64,7 +64,8 @@ Read or watch:
 ## Configuration files
 Use these files for the following tasks
 	
-### package.json
+<details>
+  <summary><h3>package.json :floppy_disk:</h3></summary>
 
 ```bash
 {
@@ -101,9 +102,10 @@ Use these files for the following tasks
 }
 
 ```
----
-	
-### .eslintrc.js
+</details>
+
+<details>
+  <summary><h3>.eslintrc.js :floppy_disk:</h3></summary>
 
 ```bash
 module.exports =  {
@@ -120,9 +122,10 @@ module.exports =  {
 };
 
 ```
----
+</details>
 
-### tsconfig.json
+<details>
+  <summary><h3>tsconfig.json :floppy_disk:</h3></summary>
 
 ```bash
 {
@@ -138,9 +141,11 @@ module.exports =  {
 }
 
 ```
----
+</details>
 
-### webpack.config.js
+<details>
+  <summary><h3>webpack.config.js :floppy_disk:</h3></summary>
+
 ```bash
 
 const path = require("path");
@@ -182,6 +187,8 @@ module.exports = {
 };
 
 ```
+</details>
+
 ---
 
 ### Installation :computer:
