@@ -4,7 +4,10 @@
 <img src="https://img.shields.io/badge/Vim-green.svg"/>
 <img src="https://img.shields.io/badge/JavaScript-yellow.svg"/>
 <img src="https://img.shields.io/badge/TypeScript-blue.svg"/>
-<img src="https://img.shields.io/badge/Markdown-black.svg"/><br>	
+<img src="https://img.shields.io/badge/Markdown-black.svg"/><br>
+<img src="https://img.shields.io/github/repo-size/Alexoat76/holbertonschool-backend-javascript"/>
+<img src="https://img.shields.io/github/languages/code-size/Alexoat76/holbertonschool-backend-javascript.svg"/>
+<img src="https://img.shields.io/github/last-commit/Alexoat76/holbertonschool-backend-javascript?style=round-square"/>
 </p>
 
 ---
