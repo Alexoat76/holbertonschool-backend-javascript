@@ -3,7 +3,9 @@
 <img src="https://img.shields.io/badge/Shell-ligthgreen.svg"/>
 <img src="https://img.shields.io/badge/Vim-green.svg"/>
 <img src="https://img.shields.io/badge/JavaScript-yellow.svg"/>
-<img src="https://img.shields.io/badge/TypeScript-blue.svg"/>
+<img src="https://img.shields.io/badge/TypeScript-dodgerblue.svg"/>
+<img src="https://img.shields.io/badge/NodeJS-gold.svg"/>
+<img src="https://img.shields.io/badge/Express-darkslategray.svg"/>
 <img src="https://img.shields.io/badge/Markdown-black.svg"/><br>
 <img src="https://img.shields.io/github/repo-size/Alexoat76/holbertonschool-backend-javascript"/>
 <img src="https://img.shields.io/github/languages/code-size/Alexoat76/holbertonschool-backend-javascript.svg"/>
@@ -67,11 +69,12 @@ The projects in this repository cover:
 
 | Project | Description |
 | :--- | :---|
-| **[0x00. ES6 Basics](./0x00-ES6_basic)** | `ES6` Arrow functions, Spread operators, and Iterators |
-| **[0x01. ES6 Promises](./0x01-ES6_promise)** | `ES6` Async/Await and Promises |
-| **[0x02. ES6 classes](./0x02-ES6_classes)** | `ES6` Classes |
-| **[0x03. ES6 data manipulation](./0x03-ES6_data_manipulation)** | `Filter`, `Map`, `Reduce` and Advanced Data Structures |
-| **[0x04. Typescript](./0x04-TypeScript)** | Working with the `DOM`, *`Typescript`* and how to use an Ambient `Namespace` |
+| **[0x00. ES6 Basics](./0x00-ES6_basic)** | *` ES6 `* Arrow functions, Spread operators, and Iterators |
+| **[0x01. ES6 Promises](./0x01-ES6_promise)** | *` ES6 `* Async/Await and Promises |
+| **[0x02. ES6 classes](./0x02-ES6_classes)** | *` ES6 `* Classes |
+| **[0x03. ES6 data manipulation](./0x03-ES6_data_manipulation)** | *` Filter `*, *` Map `*, *` Reduce `* and Advanced Data Structures |
+| **[0x04. Typescript](./0x04-TypeScript)** | Working with the *` DOM `*, *` Typescript `* and how to use an Ambient *` Namespace `* |
+| **[0x05. NodeJS Basics](./0x05-Node_JS_basic)** | Running *` Javascript `* and servers with *` NodeJS `* and *` Express `* |
   
 ---
 	
