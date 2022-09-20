@@ -10,8 +10,7 @@ process.stdin.on('readable', () => {
  * If stdout process in stream comes from the terminal, end the process
  * with a message
  */
-if (process.stdout.isTTY) {
-  process.stdin.on('close', () => {
-    process.stdout.write('This important software is now closing\n');
-  });
-}
+process.stdin.on('close', () => {
+  process.stdout.write('This important software is now closing\n');
+});
+
