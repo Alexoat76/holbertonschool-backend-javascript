@@ -26,7 +26,8 @@ function countStudents(path) {
       }
     }
   } catch (e) {
-    throw Error(e);
+    throw Error('Cannot load the database');
   }
 }
+
 module.exports = countStudents;
