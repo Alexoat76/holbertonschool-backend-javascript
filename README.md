@@ -75,6 +75,7 @@ The projects in this repository cover:
 | **[0x03. ES6 data manipulation](./0x03-ES6_data_manipulation)** | *` Filter `*, *` Map `*, *` Reduce `* and Advanced Data Structures |
 | **[0x04. Typescript](./0x04-TypeScript)** | Working with the *` DOM `*, *` Typescript `* and how to use an Ambient *` Namespace `* |
 | **[0x05. NodeJS Basics](./0x05-Node_JS_basic)** | Running *` Javascript `* and servers with *` NodeJS `* and *` Express `* |
+| **[0x06. Unittests in JS](./0x06-unittests_in_js)** | *`Node `* testing suite utilizing *` Mocha`* , *` Chai `* and *` SinonJS `* |
   
 ---
 	
