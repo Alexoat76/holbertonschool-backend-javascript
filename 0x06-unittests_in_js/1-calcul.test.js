@@ -69,7 +69,7 @@ describe('#calculateNumber() with type DIVIDE', () => {
   it('should return 2 when dividing 4.2 and 1.5', () => {
     assert.equal(calculateNumber('DIVIDE', 4.2, 1.5), 2);
   });
-  it("should return 'Error' when dividing 1.3 and 0", () => {
+  it("should return 'Error' when dividing 1.4 and 0", () => {
     assert.equal(calculateNumber('DIVIDE', 1.4, 0), 'Error');
   });
   it('should return -1 when dividing -0.7 and 0.7', () => {
