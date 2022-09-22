@@ -64,6 +64,7 @@ The projects in this repository cover:
 - All functions must be exported
 - A `README.md` file at the root of the repo, containing a description of the repository.
 - A `README.md` file, at the root of the folder of this project, is mandatory.
+- When necessary run every test with *` npm run test *.test.js `*, everything should pass correctly *` without `* any *` warning `* or *` error `*
 
 ## Projects 
 
